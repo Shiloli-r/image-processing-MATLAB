@@ -28,7 +28,6 @@ Afilled=imfill(Acomp, 'holes');
 figure, imshow(Afilled);
 
 
-% Second Tutorial
 %% reading, changing format and writing to local storage
 image = imread("assembly.jpg");
 imwrite(image, 'assemblyPNG.png', 'png');

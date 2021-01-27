@@ -117,7 +117,3 @@ subplot(2,2,1), imshow(A), title("Original image");
 subplot(2,2,2), imshow(N), title("Noisy image");
 
 subplot(2,2,[3,4]), imshow(D), title("Denoised imaage");
-
-
-
-
